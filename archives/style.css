@@ -1,0 +1,46 @@
+.beginning {
+    background-color: #ffffff;
+    color: #ffc9f4;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+#middle {
+    background-color: #e0218a;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+
+.end {
+    background-color: #ffffff;
+    color: #e0218a;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
+.colors {
+    color: #9d1781;
+    color: #e0218a;
+    color: #ff92e8;
+    color: #ffc9f4;
+    color: #ffffff;
+}
+
+
