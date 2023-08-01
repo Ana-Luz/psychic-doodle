@@ -30,6 +30,11 @@ app.post('/postRequest',function(req,res){
   res.status(201).send("hello world")
 })
 
+const server = app.listen(0, () => {
+  const port = server.address().port;
+  console.log(`Server is running on port ${port}`);
+});
+
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
   next(createError(404));
@@ -47,3 +52,4 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+module.exports = server;
