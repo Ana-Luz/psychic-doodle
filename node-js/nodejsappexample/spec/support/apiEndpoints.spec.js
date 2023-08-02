@@ -1,5 +1,5 @@
 const axios = require('axios');
-const app = require('/Users/anaclaraluz/Documents/GitHub/psychic-doodle/node-js/nodejsappexample/app.js');
+const app = require('../../app');
 
 describe('GET /getRequest', () => {
   let server;
