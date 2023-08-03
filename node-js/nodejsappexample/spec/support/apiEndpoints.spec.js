@@ -5,21 +5,6 @@ describe('GET /getRequest', () => {
   let server;
   let port = 3000;
 
-  beforeAll(done => {
-    server = http.createServer((req, res) => {
-      res.write('ok');
-      res.end();
-    });
-    // server.listen(done);
-  });
-
-  // beforeAll((done) => {
-  //   server = app.listen(0, () => {
-  //     port = server.address().port;
-  //     done();
-  //   });
-  // });
-
   afterAll(done => {
     server.close(done);
   });
@@ -34,21 +19,6 @@ describe('GET /getRequest', () => {
 describe('POST /postRequest', () => {
   let server;
   let port;
-
-  beforeAll(done => {
-    server = http.createServer((req, res) => {
-      res.write('ok');
-      res.end();
-    });
-    // server.listen(done);
-  });
-
-  // beforeAll((done) => {
-  //   server = app.listen(0, () => {
-  //     port = server.address().port;
-  //     done();
-  //   });
-  // });
 
   afterAll(done => {
     server.close(done);
