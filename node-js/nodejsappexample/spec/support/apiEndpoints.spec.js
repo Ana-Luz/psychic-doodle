@@ -10,7 +10,7 @@ describe('GET /getRequest', () => {
       res.write('ok');
       res.end();
     });
-    server.listen(done);
+    // server.listen(done);
   });
 
   // beforeAll((done) => {
@@ -40,7 +40,7 @@ describe('POST /postRequest', () => {
       res.write('ok');
       res.end();
     });
-    server.listen(done);
+    // server.listen(done);
   });
 
   // beforeAll((done) => {
