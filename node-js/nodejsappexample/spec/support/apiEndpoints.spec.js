@@ -18,7 +18,7 @@ describe('GET /getRequest', () => {
 
 describe('POST /postRequest', () => {
   let server;
-  let port;
+  let port = 3000;
 
   afterAll(done => {
     server.close(done);
